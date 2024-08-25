@@ -14,6 +14,7 @@ from pathlib import Path
 from datetime import timedelta
 from decouple import config
 import os
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -145,9 +146,7 @@ WSGI_APPLICATION = 'backend_project.wsgi.application'
 # }
 DATABASES = {
     'default': dj_database_url.parse(
-        config('DATABASE_URL'),
-        conn_max_age=600,
-        conn_health_checks=True,
+        config('DATABASE_URL')
     )
 }
 
