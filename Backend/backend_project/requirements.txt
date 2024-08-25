@@ -69,3 +69,4 @@ yarl==1.9.4
 lru-dict==1.2.0
 gunicorn==23.0.0
 dj-database-url==2.2.0
+psycopg2==2.9.9
