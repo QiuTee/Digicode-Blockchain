@@ -1,2 +1,2 @@
-const APIendpoint = "http://localhost:8000";
+const APIendpoint = "https://digicode-blockchain-gbad.onrender.com";
 export { APIendpoint };
