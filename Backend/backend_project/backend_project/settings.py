@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000","https://cos-30049-team-project.vercel.app" , "https://digicode-blockchain-gbad.onrender.com" , "https://digicode-blockchain-gbad.onrender.com" 
+    "http://localhost:3000","https://cos-30049-team-project.vercel.app" , "https://digicode-blockchain-zdru.vercel.app" 
 ]
 
 REST_FRAMEWORK = {
