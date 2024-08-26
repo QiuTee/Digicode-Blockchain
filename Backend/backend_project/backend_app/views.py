@@ -145,7 +145,7 @@ class RegisterAPI(GenericAPIView):
 #verify otp 
 class VerifyView(viewsets.ModelViewSet): 
     queryset = User.objects.all() 
-    serializers_class = UserInfoSerializer
+    serializer_class = UserInfoSerializer
     
     @action(detail = False, methods = ['post'])
     def verify_otp(self , request):
